@@ -1,0 +1,1 @@
+require("desert-witch").setup()

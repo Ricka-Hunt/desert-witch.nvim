@@ -1,7 +1,7 @@
 # desert-witch.nvim
 
 An earthy, mystical color palette.
-
+aq
 ![screenshot](screenshot.png)
 
 ## Features:

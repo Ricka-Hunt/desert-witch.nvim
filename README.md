@@ -1,13 +1,12 @@
 # desert-witch.nvim
 
 An earthy, mystical color palette.
-aq
 ![screenshot](screenshot.png)
 
 ## Features:
 
 - Warm, quiet colors, focusing on shades of brown.
-- hand-picked syntax highlighting, balancing clarity, minimalism, and
+- hand-picked syntax highlighting, balancing clarity, minimalism
 - special bold/italics highlighting for featureless fonts.
   aesthetics.
 
@@ -55,7 +54,7 @@ using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 Desert Witch is mainly tested on QML, Javascript, CSS and HTML, and is tweaked for the plugins I personally enjoy.
 
-If you're readiding this: First, thank you for taking a moment to appreciate my personal love-letter to the color brown.
+If you're readiding this: First, thank you for taking a moment to appreciate my personal love-letter to the color brown.  
 Second: If you'd like to extend this theme, (or if you'd like me to do it!)
 please, make some noise!
 

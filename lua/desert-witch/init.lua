@@ -232,7 +232,8 @@ function M.setup()
     ["@tag.attribute"] = { fg = saffron },
     --["@tag.delimiter"]={},
 
-    ["@lsp.type.operator"] = { link = "@keyword.conditional.ternary" },
+    ["@lsp.type.operator"] = { fg = scarlet },
+    ["@lsp.type.operator.qml"] = { fg = scarlet },
 
     --Diagnostics----------------------------------------
     DiagnosticError = { fg = scarlet },

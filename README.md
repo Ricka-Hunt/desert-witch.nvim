@@ -19,6 +19,7 @@ An earthy, mystical color palette.
 - [Blink.cmp](https://github.com/saghen/blink.cmp)
 - [mini.tabline](https://github.com/nvim-mini/mini.tabline)
 - [mini.hipatterns](https://github.com/nvim-mini/mini.hipatterns/)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - and more!
 
 ## Installation:
@@ -45,7 +46,7 @@ using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ## Future plans:
 
-- [ ] Lualine theme
+- [x] Lualine theme
 - [ ] Detailed breakdown of the palette and the use for each color
 - [ ] Support for more plugins and bespoke tailoring for more languages
 

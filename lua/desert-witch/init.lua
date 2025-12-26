@@ -394,7 +394,7 @@ function M.setup()
     --RenderMarkdownIndent={},
     --RenderMarkdownHtmlComment={},
     RenderMarkdownLink = { fg = orange, underline = true, sp = orane },
-    RenderMarkdownTodo = { link = "Todo" },
+    RenderMarkdownTodo = { fg=cyan },
     RenderMarkdownTableHead = { fg = sand },
     RenderMarkdownTableRow = { fg = sand },
     -- RenderMarkdownTableFill = {},

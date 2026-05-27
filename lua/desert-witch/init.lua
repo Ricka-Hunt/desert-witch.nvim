@@ -47,7 +47,7 @@ function M.setup()
     StdoutMsg = { fg = fg },
     FloatBorder = { fg = sand, bg = bg },
     --  FoldColumn     = {},
-    --  Folded         = {},
+    Folded = { fg = moss, bg = altbg }, ---------------------
     IncSearch = { link = "Visual" },
     --  lCursor        = {},
     LineNr = { bg = bg, fg = sand },

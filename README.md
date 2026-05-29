@@ -3,7 +3,7 @@
 An earthy, mystical color palette.
 ![screenshot](screenshot.png)
 
-## Features:
+## Features
 
 - Warm, quiet colors, focusing on shades of brown.
 - hand-picked syntax highlighting, balancing clarity, minimalism, and aesthetics.
@@ -20,20 +20,21 @@ An earthy, mystical color palette.
 - [mini.tabline](https://github.com/nvim-mini/mini.tabline)
 - [mini.hipatterns](https://github.com/nvim-mini/mini.hipatterns/)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [Guttermarks](https://github.com/dimtion/guttermarks.nvim)
 - and more!
 
-## Installation:
+## Installation
 
-using vim.pack.add (Neovim v0.12+)
+Using vim.pack.add (Neovim v0.12+)
 
-```
+```text
 vim.pack.add({"https://codeberg.org/trickyni/desert-witch.nvim/src/branch/main"})
 vim.cmd("colorscheme desert-witch")
 ```
 
 using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
-```
+```text
 {
   "https://codeberg.org/trickyni/desert-witch.nvim/src/branch/main",
   lazy = false,
@@ -44,13 +45,13 @@ using [lazy.nvim](https://github.com/folke/lazy.nvim):
 }
 ```
 
-## Future plans:
+## Future plans
 
 - [x] Lualine theme
 - [ ] Detailed breakdown of the palette and the use for each color
 - [ ] Support for more plugins and bespoke tailoring for more languages
 
-## Feedback welcome!
+## Feedback welcome
 
 Desert Witch is mainly tested on QML, Javascript, CSS and HTML, and is tweaked for the plugins I personally enjoy.
 

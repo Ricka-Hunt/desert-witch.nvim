@@ -46,8 +46,8 @@ function M.setup()
     StderrMsg = { fg = scarlet },
     StdoutMsg = { fg = fg },
     FloatBorder = { fg = sand, bg = bg },
-    --  FoldColumn     = {},
-    Folded = { fg = moss, bg = altbg }, ---------------------
+    -- FoldColumn     = {},
+    Folded = { fg = bg25, bg = bg95 },
     IncSearch = { link = "Visual" },
     --  lCursor        = {},
     LineNr = { bg = bg, fg = sand },
@@ -290,17 +290,21 @@ function M.setup()
     markdownLink = { fg = orange, underline = true, sp = orange },
     markdownLinkText = { fg = orange, underline = true, sp = orange },
     markdownLinkDelimiter = { fg = orange },
+
     --blink.cmp
     BlinkCmpMenuBorder = { link = "FloatBorder" },
     BlinkCmpDocBorder = { fg = orange },
     BlinkCmpGhostText = { link = "Comment" },
+
     -- MiniHipatterns
     MiniHipatternsFixme = { bg = scarlet, fg = bg },
     MiniHipatternsHack = { bg = orange, fg = bg },
     MiniHipatternsNote = { bg = cyan, fg = bg },
     MiniHipatternsTodo = { link = "Todo" },
+
     -- MiniSurround
     MiniSurround = { link = "Visual" },
+
     -- MiniTabline
     MiniTablineCurrent = { fg = bg, bg = orange },
     MiniTablineVisible = { fg = bg, bg = sand },
@@ -311,6 +315,8 @@ function M.setup()
     MiniTablineFill = { bg = altbg },
     MiniTablineTabpagesection = {},
     MiniTablineTrunc = { fg = sand, bg = altbg },
+
+    ---- CSV
     csvCol0 = { fg = "#e86045" },
     csvCol1 = { fg = "#e68d53" },
     csvCol2 = { fg = "#f8e2a0" },
@@ -411,6 +417,11 @@ function M.setup()
     RenderMarkdownHint = { link = "DiagnosticHint" },
     RenderMarkdownWarn = { link = "DiagnosticWarn" },
     RenderMarkdownError = { link = "DiagnosticError" },
+    -- Guttermarks.nvim
+    GutterMarksLocal = { fg = cyan },
+    GutterMarksGlobal = { link = "GutterMarksLocal" },
+    GutterMarksSpecial = { link = "GutterMarksLocal" },
+    -- generic text/background for each color
     BgText = { fg = bg },
     Bg75Text = { fg = bg75 },
     AltbgText = { fg = altbg },

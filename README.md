@@ -19,6 +19,7 @@ An earthy, mystical color palette.
 - [Blink.cmp](https://github.com/saghen/blink.cmp)
 - [mini.tabline](https://github.com/nvim-mini/mini.tabline)
 - [mini.hipatterns](https://github.com/nvim-mini/mini.hipatterns/)
+- [mini.cursorword](https://github.com/nvim-mini/mini.cursorword)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [Guttermarks](https://github.com/dimtion/guttermarks.nvim)
 - and more!

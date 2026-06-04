@@ -316,6 +316,9 @@ function M.setup()
     MiniTablineTabpagesection = {},
     MiniTablineTrunc = { fg = sand, bg = altbg },
 
+    -- MiniCursorword
+    MiniCursorword = { underline = true, sp = "#6b6055" },
+
     ---- CSV
     csvCol0 = { fg = "#e86045" },
     csvCol1 = { fg = "#e68d53" },

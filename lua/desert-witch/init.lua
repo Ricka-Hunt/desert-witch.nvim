@@ -404,7 +404,7 @@ function M.setup()
     --RenderMarkdownQuote4={},
     --RenderMarkdownQuote5={},
     --RenderMarkdownQuote6={},
-    RenderMarkdownInlineHighlight = { bg = fg, fg = bg },
+    RenderMarkdownInlineHighlight = { bg = bg, fg = saffron, reverse = true },
     RenderMarkdownDash = { fg = bg25 },
     RenderMarkdownSign = { bg = bg },
     --RenderMarkdownMath={},

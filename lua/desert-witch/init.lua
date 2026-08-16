@@ -287,7 +287,7 @@ function M.setup()
     markdownBold = { underdouble = false, sp = saffron, bold = true },
     markdownItalic = { underdouble = false, sp = sand, italic = true },
     markdownUrl = { fg = cyan },
-    markdownLink = { fg = orange, underline = true, sp = orange },
+    markdownLink = { fg = orange, underline = false },
     markdownLinkText = { fg = orange, underline = true, sp = orange },
     markdownLinkDelimiter = { fg = orange },
 
@@ -410,7 +410,8 @@ function M.setup()
     --RenderMarkdownMath={},
     --RenderMarkdownIndent={},
     --RenderMarkdownHtmlComment={},
-    RenderMarkdownLink = { fg = orange, underline = true, sp = orange },
+    RenderMarkdownLink = { link = "MarkdownLink" },
+    RenderMarkdownWikiLink = { link = "MarkdownLink" },
     RenderMarkdownTodo = { fg = cyan },
     RenderMarkdownTableHead = { fg = sand },
     RenderMarkdownTableRow = { fg = sand },

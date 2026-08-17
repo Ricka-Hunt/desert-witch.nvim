@@ -377,7 +377,7 @@ function M.setup()
 
     -- RenderMarkdown
     RenderMarkdownBullet = { fg = moss },
-    RenderMarkdownCheckedItem = { fg = sand, strikethrough = true },
+    mRenderMarkdownCheckedItem = { fg = sand, strikethrough = true },
     RenderMarkdownChecked = { fg = sand },
     RenderMarkdownUnchecked = { fg = moss },
     RenderMarkdownH1 = { link = "markdownH1" },
@@ -410,7 +410,7 @@ function M.setup()
     --RenderMarkdownMath={},
     --RenderMarkdownIndent={},
     --RenderMarkdownHtmlComment={},
-    RenderMarkdownLink = { link = "MarkdownLink" },
+    RenderMarkdownLink = { fg = orange, underline = false },
     RenderMarkdownWikiLink = { link = "MarkdownLink" },
     RenderMarkdownTodo = { fg = cyan },
     RenderMarkdownTableHead = { fg = sand },

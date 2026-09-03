@@ -435,6 +435,7 @@ function M.setup()
     ScarletText = { fg = scarlet },
     OrangeText = { fg = orange },
     SaffronText = { fg = saffron },
+    GreyText = { fg = grey },
     MossText = { fg = moss },
     CeladonText = { fg = celadon },
     NazarText = { fg = nazar },
